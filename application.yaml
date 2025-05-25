@@ -1,12 +1,7 @@
-server:
- port: 8081
- 
-spring:
-  application:
-    name: Config-Default
 eureka:
   instance:
     prefer-ip-address: true
+    appname: Config-Default
   client:
     fetch-registry: true
     register-with-eureka: true
